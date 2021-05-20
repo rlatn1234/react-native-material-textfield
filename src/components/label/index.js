@@ -23,6 +23,7 @@ export default class Label extends PureComponent {
     baseColor: PropTypes.string.isRequired,
     tintColor: PropTypes.string.isRequired,
     errorColor: PropTypes.string.isRequired,
+    text: PropTypes.string,
 
     focusAnimation: PropTypes
       .instanceOf(Animated.Value)
